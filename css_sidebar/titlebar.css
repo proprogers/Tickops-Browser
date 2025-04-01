@@ -1,0 +1,203 @@
+#titlebar {
+  display: flex;
+  background: #e3e3e3;
+}
+
+#titlebar_left {
+  /* -webkit-app-region: drag; */
+  display: flex;
+  padding-top: 20%;
+}
+
+#titlebar > #app-version {
+  padding: 7px 4px 0;
+  color: #777;
+}
+
+#titlebar > #mac-spacer {
+  flex: 0 0 100px;
+  -webkit-app-region: drag;
+}
+
+#tabs-container {
+  overflow: hidden;
+  flex: 1 1 0;
+  -webkit-app-region: drag;
+  max-height: 34px;
+}
+
+#tabs-container-left {
+  overflow: hidden;
+  display: inline-table;
+  flex: 1 1 0;
+  /* -webkit-app-region: drag; */
+  max-height: 34px;
+}
+
+#tabs-left {
+  /* padding-top: 50px; */
+  height: 100dvh;
+  padding-bottom: 15vh;
+  /* display: flex; */ 
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  display: list-item;
+  font-size: 12px;
+  /* -webkit-touch-callout: none; */
+  /* -webkit-user-select: none; */
+  /* -webkit-app-region: drag; */
+  cursor: default;
+}
+#tabs-left::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+#tabs {
+  height: 34px;
+  display: flex;
+  font-size: 12px;
+  -webkit-touch-callout: none;
+  /* -webkit-user-select: none; */
+  -webkit-app-region: drag;
+  cursor: default;
+}
+
+#tabs::-webkit-scrollbar {
+  display: none;
+}
+
+#tabs button {
+  padding: 4px;
+  margin: 5px 4px;
+  outline: none;
+  cursor: default;
+}
+
+#tabs > span {
+  -webkit-app-region: no-drag;
+}
+
+#titlebar-spinner {
+  padding: 12px 11px 0;
+}
+
+#tab-spinner {
+  display: contents;
+  color: 'white';
+  padding: 0 10px;
+}
+
+.tab {
+  max-width: 250px;
+  min-width: 70px;
+  flex: 1;
+  display: flex;
+  color: #777;
+  margin: 2px;
+  margin-bottom: 0px;
+  border-right: 1px solid #ccc;
+  /* border-left: 1px solid #ccc; */
+  cursor: default !important;
+  white-space: nowrap;
+  -webkit-app-region: no-drag;
+}
+.tickops-software{
+    bottom: 0px;
+    padding: 10px;
+    color: white;
+    font-size: 8px;
+    position: absolute;
+    text-align: center;
+}
+.tab-left {
+    cursor: default;
+  /* max-width: 250px; */
+      /* max-width: 250px; */
+      max-width: 100%;
+      min-width: 70px;
+      flex: 1;
+      display: flex;
+      color: #e6e6e6;
+      margin: 2px;
+      border-radius: 11px;
+      height: 35px;
+      margin: 5px;
+      font-family: sans-serif;
+      background: rgba(89, 87, 87, 0.34);
+      
+      margin-bottom: 0px;
+      /* border-left: 1px solid #ccc; */
+      white-space: nowrap;
+      -webkit-app-region: no-drag;
+}
+
+.tab-left.active{
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-radius: 10px;
+  /* margin-top: 2px; */
+  background: #939393;
+}
+
+.tab-left.success {
+  background: #60d664;
+}
+.tabs-left.err {
+  background: #F44336;
+}
+.tab-left > span {
+  line-height: 1.2;
+  flex: 1;
+  padding: 3px 10px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tab-left > span > i {
+  margin-left: 5px;
+}
+
+.tab-left button {
+  padding: 4px;
+  margin: 5px 4px 5px 0;
+  outline: none;
+}
+
+.tab.active {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin-top: 2px;
+  background: #fff;
+}
+
+
+
+.tab.success {
+  background: #60d664;
+}
+
+.tabs.err {
+  background: #F44336;
+}
+
+.tab > span {
+  line-height: 1.2;
+  flex: 1;
+  color: black;
+  font-family: sans-serif;
+  font-weight: 300;
+  padding: 3px 10px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tab > span > i {
+  margin-left: 5px;
+}
+
+.tab button {
+  padding: 4px;
+  margin: 5px 4px 5px 0;
+  outline: none;
+}

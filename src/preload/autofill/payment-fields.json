@@ -1,0 +1,270 @@
+[
+  {
+    "name": "paymentMethod",
+    "autocomplete": [
+      "payment-method"
+    ],
+    "labels": [
+      "payment method"
+    ],
+    "keywords": [
+      "payment-method-list"
+    ]
+  },
+  {
+    "name": "country",
+    "autocomplete": [
+      "country"
+    ],
+    "labels": [
+      "country"
+    ],
+    "keywords": [
+      "country",
+      "address.country",
+      "country_Contact",
+      "coustomer_countryIso3"
+    ]
+  },
+  {
+    "name": "firstName",
+    "autocomplete": [
+      "given-name",
+      "name"
+    ],
+    "labels": [
+      "first name"
+    ],
+    "keywords": [
+      "first.?name"
+    ]
+  },
+  {
+    "name": "lastName",
+    "autocomplete": [
+      "family-name"
+    ],
+    "labels": [
+      "last name",
+      "surname"
+    ],
+    "keywords": [
+      "last.?name",
+      "surname"
+    ]
+  },
+  {
+    "name": "nameOnCard",
+    "autocomplete": [
+      "cc-name",
+      "name"
+    ],
+    "labels": [
+      "name on card",
+      "cardholder-name"
+    ],
+    "keywords": [
+      "card-name",
+      "cardname",
+      "cardholder-name",
+      "cardholdername"
+    ]
+  },
+  {
+    "name": "cardNumber",
+    "autocomplete": [
+      "cc-number"
+    ],
+    "labels": [
+      "card number",
+      "credit card",
+      "credit card number",
+      "credit-card-number"
+    ],
+    "keywords": [
+      "card.?number",
+      "ccnum"
+    ]
+  },
+  {
+    "name": "cardExp",
+    "autocomplete": [
+      "cc-exp"
+    ],
+    "labels": [
+      "expiration date",
+      "exp date"
+    ],
+    "keywords": [
+      "card.?expiration.?date"
+    ]
+  },
+  {
+    "name": "cardExpYear",
+    "autocomplete": [
+      "cc-exp-year"
+    ],
+    "labels": [
+      "expiration year",
+      "exp year"
+    ],
+    "keywords": [
+      "ccexpyr",
+      "year"
+    ]
+  },
+  {
+    "name": "cardExpMonth",
+    "autocomplete": [
+      "cc-exp-month"
+    ],
+    "labels": [
+      "expiration month",
+      "exp month"
+    ],
+    "keywords": [
+      "ccexpmon",
+      "month"
+    ]
+  },
+  {
+    "name": "cardCvc",
+    "autocomplete": [
+      "cc-csc"
+    ],
+    "labels": [
+      "security code",
+      "cvv code",
+      "cvv",
+      "cvn"
+    ],
+    "keywords": [
+      "card.?security.?code",
+      "card_cvn",
+      "cccvv",
+      "cvn",
+      "cvv"
+    ]
+  },
+  {
+    "name": "cardType",
+    "autocomplete": [
+      "cc-type"
+    ],
+    "labels": [
+      "card type"
+    ],
+    "keywords": [
+      "card.?type",
+      "card.?brand"
+    ]
+  },
+  {
+    "name": "province",
+    "autocomplete": [
+      "address-level1"
+    ],
+    "labels": [
+      "state or province",
+      "state"
+    ],
+    "keywords": [
+      "region",
+      "state",
+      "address.state",
+      "state_Contact"
+    ]
+  },
+  {
+    "name": "city",
+    "autocomplete": [
+      "address-level2"
+    ],
+    "labels": [
+      "city"
+    ],
+    "keywords": [
+      "city"
+    ]
+  },
+  {
+    "name": "address1",
+    "autocomplete": [
+      "address-line1"
+    ],
+    "labels": [
+      "address line 1",
+      "address 1",
+      "address"
+    ],
+    "keywords": [
+      "address1",
+      "^address$"
+    ]
+  },
+  {
+    "name": "address2",
+    "autocomplete": [
+      "address-line2"
+    ],
+    "labels": [
+      "address line 2 (optional)",
+      "address 2 (optional)",
+      "address (optional)",
+      "address 2"
+    ],
+    "keywords": [
+      "address2"
+    ]
+  },
+  {
+    "name": "zip",
+    "autocomplete": [
+      "postal-code",
+      "cc-postal-code"
+    ],
+    "labels": [
+      "zip code",
+      "postal code",
+      "postcode"
+    ],
+    "keywords": [
+      "postal",
+      "zip"
+    ]
+  },
+  {
+    "name": "tel",
+    "autocomplete": [
+      "tel",
+      "tel-area-code"
+    ],
+    "labels": [
+      "primary phone number",
+      "primary phone",
+      "secondary phone",
+      "phone number",
+      "cell phone",
+      "work phone",
+      "area code"
+    ],
+    "keywords": [
+      "phone",
+      ".*?area.?code.*?"
+    ]
+  },
+  {
+    "name": "email",
+    "autocomplete": [
+      "email"
+    ],
+    "labels": [
+      "email",
+      "email address",
+      "confirm email"
+    ],
+    "keywords": [
+      "email"
+    ]
+  }
+]

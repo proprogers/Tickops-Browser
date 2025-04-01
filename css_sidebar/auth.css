@@ -1,0 +1,19 @@
+html {
+  -webkit-app-region: drag
+}
+
+button, input {
+  -webkit-app-region: no-drag;
+}
+
+#auth {
+  margin: 50px 20px;
+}
+
+#enter-button {
+  position: revert-layer;
+  right: 25px;
+  width: 100%;
+  background: black;
+  color: white;
+}

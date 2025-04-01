@@ -1,0 +1,14 @@
+#navbar {
+  padding-top: 10px;
+  display: flex;
+}
+
+#navbar button {
+  padding: 6px;
+}
+
+#navbar svg {
+  font-size: 1.0em;
+}
+
+

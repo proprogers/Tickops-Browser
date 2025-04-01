@@ -1,0 +1,21 @@
+[
+  "react",
+  "react-dom",
+  "react-addons-update",
+  "react-bootstrap-table2-paginator",
+  "react-chartjs-2",
+  "react-windows-controls",
+  "chart.js",
+  "moment-timezone",
+  "fingerprintjs2",
+  "bufferutil",
+  "utf-8-validate",
+  "jszip",
+  "chrome-extensions-tickops",
+  "@sentry/electron",
+  "bootstrap",
+  "css-loader",
+  "style-loader",
+  "zustand"
+
+]

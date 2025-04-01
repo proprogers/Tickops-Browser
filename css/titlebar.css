@@ -1,0 +1,116 @@
+#titlebar {
+  /* -webkit-app-region: drag; */
+  display: flex;
+  padding-top: 20%;
+}
+
+#titlebar > #app-version {
+  padding: 7px 4px 0;
+  color: #777;
+}
+
+#titlebar > #mac-spacer {
+  flex: 0 0 80px;
+}
+
+#tabs-container {
+  overflow: hidden;
+  display: inline-table;
+  flex: 1 1 0;
+  /* -webkit-app-region: drag; */
+  max-height: 34px;
+}
+
+#tabs {
+  /* padding-top: 50px; */
+  height: 100dvh;
+  padding-bottom: 15vh;
+  /* display: flex; */ 
+  overflow: scroll;
+  display: list-item;
+  font-size: 12px;
+  /* -webkit-touch-callout: none; */
+  /* -webkit-user-select: none; */
+  /* -webkit-app-region: drag; */
+  cursor: default;
+}
+
+#tabs::-webkit-scrollbar {
+  display: none;
+}
+
+#tabs button {
+  padding: 4px;
+  margin: 5px 4px;
+  outline: none;
+  cursor: default;
+}
+
+#tabs > span {
+ 
+  -webkit-app-region: no-drag;
+}
+
+#titlebar-spinner {
+  padding: 12px 11px 0;
+}
+
+#tab-spinner {
+  max-width: fit-content;
+  position: initial;
+  padding: 0 10px;
+}
+
+.tab {
+  /* max-width: 250px; */
+      /* max-width: 250px; */
+      max-width: 100%;
+      min-width: 70px;
+      flex: 1;
+      display: flex;
+      color: #e6e6e6;
+      margin: 2px;
+      border-radius: 11px;
+      height: 35px;
+      margin: 5px;
+      background: #4c4c4c;
+      margin-bottom: 0px;
+      /* border-left: 1px solid #ccc; */
+      white-space: nowrap;
+      -webkit-app-region: no-drag;
+}
+
+.tab.active {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-radius: 10px;
+  /* margin-top: 2px; */
+  background: #6e707e;
+}
+
+.tab.success {
+  background: #60d664;
+}
+
+.tabs.err {
+  background: #F44336;
+}
+
+.tab > span {
+  line-height: 1.2;
+  flex: 1;
+  width: auto;
+  padding: 3px 10px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tab > span > i {
+  margin-left: 5px;
+}
+
+.tab button {
+  padding: 4px;
+  margin: 5px 4px 5px 0;
+  outline: none;
+}

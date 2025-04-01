@@ -1,0 +1,151 @@
+// Global component styles
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+div.MuiPaper-root {
+  transition: none !important;
+}
+
+body {
+  height: 100%;
+}
+
+a {
+  &:focus {
+    outline: none;
+  }
+}
+
+// Main page wrapper
+#wrapper {
+  display: flex;
+
+  #content-wrapper {
+    background-color: $gray-100;
+    width: 100%;
+    overflow-x: hidden;
+
+    #content {
+      flex: 1 0 auto;
+    }
+  }
+}
+
+// Set container padding to match gutter width instead of default 15px
+.container,
+.container-fluid {
+  padding-left: $grid-gutter-width;
+  padding-right: $grid-gutter-width;
+  padding-top: 2.2rem
+}
+
+// Scroll to top button
+.scroll-to-top {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+  width: 2.75rem;
+  height: 2.75rem;
+  text-align: center;
+  color: $white;
+  background: fade-out($gray-800, .5);
+  line-height: 46px;
+
+  &:focus,
+  &:hover {
+    color: white;
+  }
+
+  &:hover {
+    background: $gray-800;
+  }
+
+  i {
+    font-weight: 800;
+  }
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.1.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.breadcrumb {
+  background-color: rgba(0, 0, 0, .03);
+  border: 1px solid rgba(0, 0, 0, .125);
+}
+
+#content {
+  margin-bottom: 25px;
+}
+
+#popup {
+  left: 0;
+  top: 70px;
+  position: fixed;
+  width: 100%;
+  z-index: 1001;
+  transition: opacity 0.0s;
+}
+
+.fade-in-popup {
+  opacity: 1;
+}
+
+.fade-in-overlay {
+  opacity: 0.7;
+}
+
+.fade-out {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.content-popup {
+  margin: 80px auto 0;
+  position: relative;
+  padding: 10px;
+  width: 500px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 5px #666666;
+}
+
+.content-popup h2 {
+  color: #48484B;
+  border-bottom: 1px solid #48484B;
+  margin-top: 0;
+  padding-bottom: 4px;
+}
+
+.popup-overlay {
+  left: 0;
+  top: 70px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color: #777777;
+  cursor: pointer;
+  transition: opacity 0.0s;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  opacity: 1
+}
+
+#temp-table-pagination-id p {
+  margin-top: 14px;
+}

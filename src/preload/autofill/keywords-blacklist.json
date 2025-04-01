@@ -1,0 +1,11 @@
+{
+  "forms": [
+    "signup"
+  ],
+  "inputs": [
+    "search",
+    "discount",
+    "dp",
+    "date"
+  ]
+}
